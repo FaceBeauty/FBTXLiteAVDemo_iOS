@@ -703,8 +703,6 @@
 		E0EFBB262D827D2E00404A94 /* 34_cheekNarrowing_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = E0EFB7012D827D2E00404A94 /* 34_cheekNarrowing_selected.png */; };
 		E0EFBB2B2D827D9F00404A94 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB6CD2D827D2E00404A94 /* Masonry.framework */; };
 		E0EFBB2C2D827D9F00404A94 /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB6CD2D827D2E00404A94 /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		E0EFBB2D2D827DA700404A94 /* FaceBeauty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB8CB2D827D2E00404A94 /* FaceBeauty.framework */; };
-		E0EFBB2E2D827DA700404A94 /* FaceBeauty.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB8CB2D827D2E00404A94 /* FaceBeauty.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0EFBB2F2D827DB100404A94 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB6CE2D827D2E00404A94 /* SSZipArchive.framework */; };
 		E0EFBB302D827DB100404A94 /* SSZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFB6CE2D827D2E00404A94 /* SSZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E0EFBB322D82820900404A94 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400C520126A67EE30036AC40 /* AssetsLibrary.framework */; };
@@ -743,7 +741,6 @@
 				E0EFBB2C2D827D9F00404A94 /* Masonry.framework in Embed Frameworks */,
 				E0EFBB412D8284B800404A94 /* AFNetworking.framework in Embed Frameworks */,
 				E0EFBB302D827DB100404A94 /* SSZipArchive.framework in Embed Frameworks */,
-				E0EFBB2E2D827DA700404A94 /* FaceBeauty.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1543,7 +1540,6 @@
 		E0EFB8C72D827D2E00404A94 /* FBUIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FBUIManager.h; sourceTree = "<group>"; };
 		E0EFB8C82D827D2E00404A94 /* FBUIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBUIManager.m; sourceTree = "<group>"; };
 		E0EFB8CA2D827D2E00404A94 /* FaceBeauty.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FaceBeauty.bundle; sourceTree = "<group>"; };
-		E0EFB8CB2D827D2E00404A94 /* FaceBeauty.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FaceBeauty.framework; sourceTree = "<group>"; };
 		E0EFBB422D82873500404A94 /* ico_home_beauty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_home_beauty.png; sourceTree = "<group>"; };
 		EB147B13282B905000C0E2DC /* ThirdBeautyTencentEffectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdBeautyTencentEffectViewController.h; sourceTree = "<group>"; };
 		EB147B15282B907C00C0E2DC /* ThirdBeautyTencentEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdBeautyTencentEffectViewController.m; sourceTree = "<group>"; };
@@ -1559,7 +1555,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0EFBB2D2D827DA700404A94 /* FaceBeauty.framework in Frameworks */,
 				406AB164280048BB00A99B81 /* VideoToolbox.framework in Frameworks */,
 				88167CEC2685BF97001D99DC /* libz.tbd in Frameworks */,
 				E0EFBB362D82820F00404A94 /* CoreMedia.framework in Frameworks */,
@@ -2776,7 +2771,6 @@
 			children = (
 				E0EFB8C92D827D2E00404A94 /* FBUI */,
 				E0EFB8CA2D827D2E00404A94 /* FaceBeauty.bundle */,
-				E0EFB8CB2D827D2E00404A94 /* FaceBeauty.framework */,
 			);
 			path = FBEffect;
 			sourceTree = "<group>";

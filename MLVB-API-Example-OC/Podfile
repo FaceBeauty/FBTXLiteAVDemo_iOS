@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '12.0'
 
 target 'MLVB-API-Example-OC' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,6 +7,7 @@ target 'MLVB-API-Example-OC' do
 
   # Pods for MLVB-API-Example-OC
   pod 'TXLiteAVSDK_Live'
+  pod 'FaceBeauty','4.0.0-rc'
 end
 
 target 'TXReplayKit_Screen' do

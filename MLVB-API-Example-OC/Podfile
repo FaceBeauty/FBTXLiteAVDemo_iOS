@@ -7,7 +7,7 @@ target 'MLVB-API-Example-OC' do
 
   # Pods for MLVB-API-Example-OC
   pod 'TXLiteAVSDK_Live'
-  pod 'FaceBeauty'
+  pod 'FaceBeauty','4.1.0-beta'
 end
 
 target 'TXReplayKit_Screen' do

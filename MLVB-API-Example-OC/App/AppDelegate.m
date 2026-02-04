@@ -36,7 +36,7 @@
     NSString *version = [[FaceBeauty shareInstance] getVersion];
     NSLog(@"当前FaceBeauty版本 %@", version ?: @"");
 
-    //    # error 需要FaceBeauty appid，与包名应用名绑定，请联系商务获取
+        # error 需要FaceBeauty appid，与包名应用名绑定，请联系商务获取
     if (isResourceCopied) {
         [[FaceBeauty shareInstance] initFaceBeauty:@"YOUR_APP_ID" withDelegate:nil];
     }

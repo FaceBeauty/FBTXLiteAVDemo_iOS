@@ -85,7 +85,24 @@ bool is_Mirror = true;
 //    [self.livePusher startCamera:true];
 //    [self startPush:self.streamIdTextField.text];
 }
-
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+    [[FaceBeauty shareInstance] loadAIProcessor:AINeonFace];
+    [[FaceBeauty shareInstance] loadAIProcessor:AINeonHair];
+    [[FaceBeauty shareInstance] loadAIProcessor:AINeonHand];
+    [[FaceBeauty shareInstance] loadAIProcessor:AINeonPose];
+    [[FaceBeauty shareInstance] loadAIProcessor:AINeonMatting];
+}
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    [[FaceBeauty shareInstance] removeAIProcessor:AINeonFace];
+    [[FaceBeauty shareInstance] removeAIProcessor:AINeonHair];
+    [[FaceBeauty shareInstance] removeAIProcessor:AINeonHand];
+    [[FaceBeauty shareInstance] removeAIProcessor:AINeonPose];
+    [[FaceBeauty shareInstance] removeAIProcessor:AINeonMatting];
+    
+}
 - (void)setupDefaultUIConfig {
     self.streamIdTextField.text = [NSString generateRandomStreamId];
     
@@ -127,7 +144,8 @@ bool is_Mirror = true;
 }
 
 - (IBAction)openBeauty:(UIButton *)sender {
-    [[FBUIManager shareManager] showBeautyView];
+    [[FBUIManager shareManager] showBeautyView];//美颜，美型，滤镜
+//    [[FBUIManager shareManager] showLightMakeupView];//轻彩妆
 }
 
 

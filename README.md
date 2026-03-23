@@ -12,6 +12,8 @@
 下载完成后，打开工程
 - 将 **Bundle Display Name** 和 **Bundle Identifier** 分别替换为您的**应用名**和**包名**
 - 将AppDelegate.m中[[FaceBeauty shareInstance] initFaceBeauty:@"YOUR_APP_ID" withDelegate:nil];的**YOUR_APP_ID**替换成您的**AppId**
+**请至https://github.com/FaceBeauty/FaceBeautySDK_iOS下载最新的fbui以及资源文件（fbeffect）**
+- 将fbui模块中的**assets**替换为您的*8assets**
 - 编译，运行，日志搜索**init-status**可以查看相关日志
 - 具体执行步骤可以全局搜索 **//todo --- facebeauty** 进行查看 
 
